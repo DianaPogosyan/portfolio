@@ -4,54 +4,94 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/fullpage.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
-    
+  <script type="text/javascript" src="js/fullpage.js"></script>
+  <script type="text/javascript" src="js/scrolloverflow.js"></script>
+
     <title>Портфолио начинающего Фронтенд-разработчика</title>
 </head>
+
+<script>
+jQuery(document) .ready(function($) {
+  $("#fullpage") .fullpage();
+}
+</script>
+
 <body>
-    
+<se id="fullpage">
+  <section class="section s1">
     <div class="header">
       <div class="header-page">
         <div class="header-logo animated infinite pulse delay-2s">
           <img src="img/logo.png">
         </div>
         <div class="btn-info">
-          <a href="#" class="btn btn-me">О себе</a>
+          <a href="#" class="btn btn-me">Портфолио</a>
           <a href="#" class="btn btn-contact">Контакты</a>
         </div>
-      </div>
-    </div>
-        
- 
-    <div class="container">
-            
-            <div class="social">
-            <ul>
-                <li><a href="#"><img src="img/icons8-облако-150.png"></a></li>
-                <li><a href="#"><img src="img/instagram-128x128.png"></a></li>
-            </ul>
-            </div>
+        <div class="container">
+
           <div class="basicInformation decor-cite wow fadeInUp">
-            <div class="basic">
-              <img src="img/narisovannoe-derevo-256x230.png"></div>
               <h1>Welcome!</h1>
-              <div class="ggg">Приветствую вас на сайте-портфолио начинающего Frontend-разработчика. Находясь здесь, вы оцениваете первую работу автора сайта.</div>
-           
+              <p>Приветствую вас на сайте-портфолио начинающего Frontend-разработчика. Находясь здесь, вы оцениваете первую работу автора сайта.
+              </p>
           </div>
         </div> 
-
-<section class="puzzle">
-   <div class="content1 decor-cite wow fadeInLeft" data-wow-delay="0.2s">mycontent mycontent mycontent mycontent mycontent mycontent mycontent mycontent mycontent mycontent</div>
-   <div class="content2 decor-cite wow fadeInRight"data-wow-delay="0.5s" >  mycontent mycontent mycontent mycontent mycontent mycontent </div>
-   <div class="content3 decor-cite wow fadeInRight" data-wow-delay="0.5s">  mycontent mycontent mycontent mycontent mycontent mycontent </div>
-   <div class="content4 decor-cite wow fadeInUp" data-wow-delay="0.7s">  mycontent mycontent mycontent mycontent mycontent mycontent </div>
-   <div class="content5 decor-cite wow fadeInUp" data-wow-delay="0.7s">  mycontent mycontent mycontent mycontent mycontent mycontent</div>
-   <div class="content6 decor-cite wow fadeInUp" data-wow-delay="0.7s"> mycontent mycontent mycontent mycontent mycontent mycontent </div>
-   </section>
+            <div class="social">
+              <a href="#" class="vklogo"><img src="img/facebook-7-64.png" width="40px" height="40px"></a>
+              <a href="#" class="inlogo"><img src="img/instagram-5-64.png" width="40px" height="40px"></a>
+            </div>
+    </div>
+  </div>    
   </section>
- 
+<section class="section s2">   
+<div class="middle">
+<div class="puzzle">
+   <span class="content1 decor-middle wow fadeInLeft" data-wow-delay="0.2s">
+       <img src="img/cottage-512.png" width="300px" height="200px">
+     <h2>Качество</h2>
+    <p>Оптимальные решения и сбалансированная стоимость. Мы ценим своих клиентов и наша ответственность при выполнении заказов не вызывает сомнений.</p>
+    
+   </span>
+   <div class="content2 decor-middle wow fadeInRight"data-wow-delay="0.5s" >
+        <img src="img/3d-view-128.png" width="100px" height="100px"> 
+    <h2>Современность</h2>
+    <p>Движение на острие прогресса. Мы развиваемся и используем самые современные открытия мира IT. </p> 
+     
+   </div>
+   <div class="content3 decor-middle wow fadeInRight" data-wow-delay="0.5s">
+    <img src="img/airplane-4-128.png" width="100px" height="100px">
+    <h2>Скорость</h2>
+    <p>Мы крайне ответственно относимся к дедлайнам. К каждому виду работ можно рассчитать оптимальный срок исполнения.</p>
+     
+   </div>
+   <div class="content4 decor-middle wow fadeInUp" data-wow-delay="0.5s"> 
+    <img src="img/website-design-128.png" width="100px" height="100px">
+    <h2>Дизайн</h2>
+    <p>Наша веб-студия рада предложить дизайн разного вида.</p> 
+     
+   </div>
+   <div class="content5 decor-middle wow fadeInUp" data-wow-delay="0.5s">
+    <img src="img/speech-bubble-2-128.png" width="100px" height="100px">
+     <h2>Подход</h2>
+    <p>Индивидуальный подход к каждому клиенту и готовность выслушать все пожелания.</p>
+     
+   </div>
+   <div class="content6 decor-middle wow fadeInUp" data-wow-delay="0.5s">
+    <img src="img/brain-128.png" width="100px" height="100px">
+    <h2>Логичность</h2>
+    <p>Наша система структурирована и логична.</p> 
+   </div>
+
+  </div>
+</section>
+ </div>
+ <div id="section2">
    <div class="footer">подвал</div>
+</div>
+</div>  
    <script>
      new WOW().init();
      </script>

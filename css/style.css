@@ -1,40 +1,57 @@
 body {
-font-size: 25px;
+font-size: 30px;
 color: rgba(49, 36, 42, 0.8);
-font-family: "Georgia", serif;
-background: white url("../img/terracotta-scratone.png");
+font-family: "Arial", serif;
+/* background: white url("../img/terracotta-scratone.png"); */
 overflow: scroll;
 
-}
-
-.header, .footer{
-    min-height: 250px;
 }
 
 *{
 padding: 0;
 margin: 0;}
 
+.header {
+background: rgb(253, 250, 244) url("../img/6ca61755-8de7-4455-baef-ab61cae39781.jpg") no-repeat;
+
+min-height: 100%;
+background-size: 100%;
+}
+
+
 .container {
  font-size: 30px;   
-display: grid;
-grid-template-columns: 1fr 10fr;
+margin-top: 15%;
+position: relative;
+}
+.social {
+    position: absolute;
+    top: 2vh;
+    right: 5vw;
+}
+.vklogo {
+width: 30px;
+height: 30px;
+margin-right: 2vw;
+}
+.inlogo {
+width: 30px;
+height: 30px;
 }
 
 .header-page {
-    position: relative;
-    
+position: relative;
 }
 .header-logo img {
-    width: 300px;
-    height: 150px;
+    width: 20%;
+    height: em;
     position: absolute;
-    top: 50px;
-    left: 50px; 
+    top: 20px;
+    left: 30px; 
 }
 .btn-info {
-font-size: 25px;
-
+font-size: 30px;
+margin-bottom: 20%;
 }
 .btn {
 margin-bottom: 5%;
@@ -45,25 +62,27 @@ position: relative;
 
 .btn-me {
 position: absolute;
-top: 100px;
-left:500px;
+top: 20px;
+left:40vw;
 height: 100px;
-width: 3em;
+width: 4em;
 
 
 }
 
 .btn-contact {
-top: 100px;
-left: 800px;
+top: 20px;
+left: 60vw;
+height: 100px;
+width: 4em;
 }
 .btn:hover {
 
-color: rgb(160, 209, 212)
+color: rgb(144, 191, 194)
 
 }
 .btn:active {
-color: blue;
+color: rgb(45, 48, 48)
 
 }
 .btn img {
@@ -74,129 +93,121 @@ width: 90%
 
 text-align: left;
 position: absolute;
-left: 40%;
-top: 25%;
-font-size: 75px;
-
-}
-
-.basicInformation img {
-width: 30%;
-height: 45%;
-position: absolute;
+left: 30%;
 top: 10%;
-
-
-
+font-size: 75px;
+color: rgb(32, 26, 18);
 }
-.basicInformation {
-height: 350px;
-padding: 5%;
-border-radius: 15px;
-margin: 5% 10% 5% 10%;
-padding-bottom: 10%;
-position: relative;
+.basicInformation p {
+position: absolute;
+width: 90%;
+top: 40%;
+right: 5%;
+color: rgb(226, 221, 205);
+font-size: 35px;
+font-weight: 700;
+}
 
+
+.basicInformation {
+font-family: "Georgia", serif;
+min-height: 230px;
+padding: 10%;
+border-radius: 8px;
+margin: 20% 5% 0% 5%;
+position: relative;
 }
 .decor-cite {
-background:linear-gradient(to top, rgba(70, 3, 26, 0.4),rgba(223, 172, 187, 0.4) );
-color: rgb(247, 199, 211)
+background:linear-gradient(to top, rgba(37, 37, 37, 0.4),rgba(105, 81, 60, 0.4) );
+color: rgb(219, 217, 213)
 }
-.ggg {
-position: absolute;
-top: 65%;
+.decor-middle {
+background:linear-gradient(to top, rgba(43, 25, 1, 0.3),rgba(129, 77, 16, 0.3) );
+color: rgb(31, 29, 29)
 }
-ul {
-list-style-type: none;
-}
-
-li a img {
- width: 50%;
- height: 50%;
-padding-left: 70%;
-padding-top: 90%;
-}
-
-
 
 
 section {
 
+
+}
+.middle {
+background: rgb(253, 250, 244) url("../img/pattern_264_1576859988934.png");
+}
+.puzzle {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 1fr 1fr;
-grid-gap: 5%;
-
-
-}
-
-.puzzle {
-width: 70%;
+grid-gap: 2%;
+width: 90%;
 height: 30%;
-margin-left: 20%;
+padding-top: 10%;
+padding-bottom: 10%;
+margin-left: 5%;
 
-  
 }
+.middle p {
+ font-size: 20px;   
+}
+h2 {
+font-size: 25px;
+}
+.content1 h2 {
+font-size: 40px;
+margin-top: 0%;
+margin-left: 18vw;
 
+}
+.content1 p {
+font-size: 30px;
+margin-top: 5%;;
+display: block;
+margin-left: 5%;
+
+}
 .content1 {
-    font-size: 25px;
 grid-column: 1/3;
 grid-row-start: 1;
 grid-row-end: 3;
 border-radius: 5px;
-
 padding: 5%;
- max-height: 400px;
+min-height: 200px;
+
+}
+.content1 img {
+/* margin-left: 10vw; */
+display: block;
+margin-left: auto;
+margin-right: auto;
 
 }
 
-.content2 {
+.content2 , .content3 , .content4 , .content5 , .content6 {
  
-max-height: 200px;
+min-height: 100px;
 text-align: center;
 border-radius: 5px;
-
 padding: 5%;
- 
 }
-.content3 {
-    
-    max-height: 200px;
-text-align: center;
-border-radius: 5px;
-
-padding: 5%;
- 
-}
-.content4 {
-max-height: 200px;
-text-align: center;
-border-radius: 5px;
-
-padding: 5%;
- 
-}
-.content5 {
- 
-max-height: 200px;
-text-align: center;
-border-radius: 5px;
-
-padding: 5%;
- 
-}
-.content6 {
-
-max-height: 200px;
-text-align: center;
-border-radius: 5px;
-
-padding: 5%;
-
+.content2 p, .content3 p, .content4 p, .content5 p, .content6 p{
+ margin-top: 3%
 }
 
+.content2 img {
+
+}
 
 .footer {
 height: 300px;
+background-color: rgb(243, 243, 243);
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .middle .content1 h2 {
+        font-size: 40px;
+        margin-top: 0%;
+        margin-left: 17vw; 
+    }
 
 }
