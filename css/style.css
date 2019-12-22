@@ -3,6 +3,7 @@ font-size: 30px;
 color: rgba(49, 36, 42, 0.8);
 font-family: "Arial", serif;
 /* background: white url("../img/terracotta-scratone.png"); */
+max-width: 100%;
 overflow: scroll;
 
 }
