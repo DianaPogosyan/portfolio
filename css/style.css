@@ -16,6 +16,7 @@ margin: 0;}
 background: rgb(253, 250, 244) url("../img/b85c8197-9fbb-4bf2-8219-ce67a9d0c29b.jpg") no-repeat;
 
 min-height: 100%;
+max-width: 100%;
 background-size: 100%;
 }
 
