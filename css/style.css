@@ -10,7 +10,8 @@ overflow: scroll;
 
 *{
 padding: 0;
-margin: 0;}
+margin: 0;
+border: 1px solid red;}
 
 .header {
 background: rgb(253, 250, 244) url("../img/b85c8197-9fbb-4bf2-8219-ce67a9d0c29b.jpg") no-repeat;
