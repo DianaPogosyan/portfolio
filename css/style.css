@@ -52,6 +52,7 @@ position: relative;
     top: 0%;
     left: 30px; 
 }
+
 .btn-info {
 font-size: 25px;
 margin-bottom: 20%;
@@ -101,14 +102,14 @@ position: absolute;
 left: 30%;
 top: 10%;
 font-size: 7vw;
-color: rgb(221, 216, 210);
+color: rgb(255, 250, 240);
 }
 .basicInformation p {
 position: absolute;
 width: 90%;
 top: 40%;
 right: 5%;
-color: rgb(221, 216, 210);
+color: rgb(255, 255, 255);
 text-shadow: 3px 5px 6px rgba(34, 22, 22, 0.11);
 font-size: 30px;
 font-weight: 700;
@@ -156,7 +157,6 @@ color: rgb(129, 80, 35);
 }
 
 .content1 {
-border-radius: 5px;
 padding: 5%;
 min-height: 100px;
 
@@ -172,7 +172,6 @@ margin-right: auto;
  
 min-height: 100px;
 text-align: center;
-border-radius: 5px;
 padding: 5%;
 }
 .content2 p, .content3 p, .content4 p, .content5 p, .content6 p{
