@@ -2,7 +2,7 @@ body {
 font-size: 20px;
 color: rgba(37, 32, 28, 0.8);
 font-family: "Arial", serif;
-/* background: white url("../img/terracotta-scratone.png"); */
+background-color: rgb(250, 250, 236);
 min-width: 940px;
 overflow: scroll;
 
@@ -14,7 +14,7 @@ margin: 0;
 }
 
 .header {
-background: rgb(253, 250, 244) url("../img/tu.jpg") no-repeat;
+background: rgb(250, 250, 236) url("../img/tu.jpg") no-repeat;
 
 min-height: 100%;
 max-width: 100%;
