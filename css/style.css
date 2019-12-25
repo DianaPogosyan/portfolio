@@ -259,16 +259,8 @@ line-height: 40px;
     .btn-contact {
     left: 600px;
     }
-    .puzzle {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 3%;
-    
-    }
     .puzzle p {
     font-size: 25px;
-    padding: 10%;
     }
    .puzzle h2 {
     font-size: 30px;
