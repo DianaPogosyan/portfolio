@@ -167,12 +167,12 @@ padding: 5%;
 }
 
 .photogallery {
-width: 90vw;
+width: 90%;
 display: grid;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr 1fr;
 grid-gap: 25px;
-margin-left: 4vw;
+margin-left: 5%;
 margin-bottom: 7%;
 }
 
@@ -261,8 +261,8 @@ line-height: 40px;
     }
     .puzzle {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-gap: 3%;
     
     }
@@ -273,7 +273,7 @@ line-height: 40px;
     font-size: 40px;
    }
 }
-@media(min-width: 1200px) {
+@media screen and (min-width: 1200px) {
      
     .header-logo img {
         width: 11%;
