@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/hover-min.css">
     <!-- <link rel="stylesheet" href="css/fullpage.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
@@ -22,8 +23,8 @@ jQuery(document) .ready(function($) {
 <body>
     <div class="header">
       <div class="header-page">
-        <div class="header-logo animated infinite pulse delay-2s">
-          <img src="img/logo.png">
+        <div class="header-logo">
+          <img id="lovetitle" class="hvr-bounce-in" src="img/logo.png">
         </div>
         <div class="btn-info">
           <a href="#" class="btn btn-me">Портфолио</a>
@@ -31,7 +32,7 @@ jQuery(document) .ready(function($) {
         </div>
         <div class="container">
 
-          <div class="basicInformation decor-cite wow fadeInUp">
+          <div class="basicInformation decor-cite wow fadeInUp" data-wow-delay="0.4s">
               <h1>Welcome!</h1>
               <p>Приветствую вас на сайте-портфолио начинающего Frontend-разработчика. Находясь здесь, вы оцениваете первую работу автора сайта.
               </p>
@@ -49,34 +50,34 @@ jQuery(document) .ready(function($) {
 
 
   <div class="puzzle">
-    <div class="content1 decor-middle wow fadeInLeft" data-wow-delay="0.2s">
-       <img src="img/cottage-512.png" width="130px" height="100px">
+    <div class="content1 decor-middle wow fadeInLeft" data-wow-delay="0.1s">
+       <img class="hvr-bounce-in" src="img/cottage-128.png" width="110px" height="90px">
        <h2>Качество</h2>
        <p>Оптимальные решения и сбалансированная стоимость. Мы ценим всех своих клиентов и наша ответственность при выполнении заказов не вызывает сомнений.</p>
     
       </div>
-     <div class="content2 decor-middle wow fadeInLeft"data-wow-delay="0.2s" >
-        <img src="img/3d-view-128.png" width="100px" height="100px"> 
+     <div class="content2 decor-middle wow fadeInLeft"data-wow-delay="0.1s" >
+        <img class="hvr-bounce-in" src="img/3d-view-128.png" width="100px" height="90px"> 
          <h2>Современность</h2>
          <p>Движение на острие прогресса. Мы развиваемся и используем самые современные открытия мира IT. </p> 
       </div>
-      <div class="content3 decor-middle wow fadeInLeft" data-wow-delay="0.2s">
-         <img src="img/airplane-4-128.png" width="100px" height="100px">
+      <div class="content3 decor-middle wow fadeInLeft" data-wow-delay="0.1s">
+         <img class="hvr-bounce-in" src="img/airplane-4-128.png" width="100px" height="100px">
          <h2>Скорость</h2>
          <p>Мы крайне ответственно относимся к дедлайнам. К каждому виду работ можно рассчитать оптимальный срок исполнения.</p>
        </div>
-      <div class="content4 decor-middle wow fadeInUp" data-wow-delay="0.6s"> 
-         <img src="img/website-design-128.png" width="100px" height="100px">
+      <div class="content4 decor-middle wow fadeInUp" data-wow-delay="0.3s"> 
+         <img class="hvr-bounce-in" src="img/website-design-128.png" width="100px" height="100px">
           <h2>Дизайн</h2>
            <p>Наша веб-студия рада предложить дизайн разного вида.</p> 
        </div>
-       <div class="content5 decor-middle wow fadeInUp" data-wow-delay="0.6s">
-          <img src="img/speech-bubble-2-128.png" width="100px" height="100px">
+       <div class="content5 decor-middle wow fadeInUp" data-wow-delay="0.3s">
+          <img class="hvr-bounce-in" src="img/speech-bubble-2-128.png" width="100px" height="100px">
           <h2>Подход</h2>
           <p>Индивидуальный подход к каждому клиенту и готовность выслушать все пожелания.</p>
          </div>
-         <div class="content6 decor-middle wow fadeInUp" data-wow-delay="0.6s">
-            <img src="img/brain-128.png" width="100px" height="100px">
+         <div class="content6 decor-middle wow fadeInUp" data-wow-delay="0.3s">
+            <img class="hvr-bounce-in" src="img/brain-128.png" width="100px" height="100px">
             <h2>Логичность</h2>
             <p>Наша система структурирована и логична.</p> 
          </div>
@@ -105,7 +106,7 @@ jQuery(document) .ready(function($) {
        <div><a href="#">Location</a></div>
      </div>
      <div class="footer-logo">
-      <img src="img/logo.png">
+      <img class="hvr-bounce-in" src="img/logo.png">
     </div>
   <div class="social-footer">
     <a href="#" class="vklogo"><img src="img/facebook-7-64.png" width="40px" height="40px"></a>
