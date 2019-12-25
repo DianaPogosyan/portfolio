@@ -246,7 +246,7 @@ line-height: 40px;
 }
 
 
-@media(min-width: 400px) and (max-width: 770px) {
+@media(min-width: 300px) and (max-width: 770px) {
     .header-logo img {
     width: 20%;
     }
