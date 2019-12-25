@@ -153,7 +153,6 @@ font-size: 25px;
 color: rgb(126, 67, 13);
 }
 .puzzle img {
-
 margin-bottom: 5%;
 }
 
@@ -244,4 +243,56 @@ right: 20%;
 text-align: center;
 padding-top: 13px;
 line-height: 40px;
+}
+
+
+@media(min-width: 400px) and (max-width: 770px) {
+    .header-logo img {
+    width: 20%;
+    }
+    .btn-info {
+    font-size: 30px;     
+    }
+    .btn-me {
+    left: 330px;
+    }
+    .btn-contact {
+    left: 600px;
+    }
+   
+}
+@media(min-width: 1200px) {
+     
+    .header-logo img {
+        width: 10%;
+        }
+        .btn-info {
+        font-size: 25px;     
+        }
+        .btn-me {
+        left: 500px;
+        }
+        .btn-contact {
+        left: 800px;
+        }
+        .basicInformation h1 {
+        font-size: 60px;
+        left: 450px;
+        }
+        .basicInformation p {
+        font-size: 25px;
+        }
+        .puzzle {
+        padding-top: 5%;
+        }
+        .puzzle p {
+        font-size: 17px;
+        }
+        .footer {
+        font-size: 15px; 
+        }
+        .footer .copyright {
+        margin-left: 10%;
+        }
+        
 }
