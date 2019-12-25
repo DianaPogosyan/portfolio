@@ -259,12 +259,24 @@ line-height: 40px;
     .btn-contact {
     left: 600px;
     }
-   
+    .puzzle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 3%;
+    
+    }
+    .puzzle p {
+    font-size: 25px;
+    }
+   .puzzle h2 {
+    font-size: 40px;
+   }
 }
 @media(min-width: 1200px) {
      
     .header-logo img {
-        width: 10%;
+        width: 11%;
         }
         .btn-info {
         font-size: 25px;     
@@ -289,10 +301,11 @@ line-height: 40px;
         font-size: 17px;
         }
         .footer {
-        font-size: 15px; 
+        font-size: 18px; 
         }
         .footer .copyright {
         margin-left: 10%;
         }
+        
         
 }
