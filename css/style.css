@@ -263,7 +263,7 @@ line-height: 40px;
     padding-top: 5%;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
      
     .header-logo img {
         width: 11%;
@@ -278,17 +278,20 @@ line-height: 40px;
         left: 800px;
         }
         .basicInformation h1 {
-        font-size: 60px;
-        left: 450px;
+        font-size: 70px;
+        left: 38%;
         }
         .basicInformation p {
-        font-size: 25px;
+        font-size: 30px;
         }
         .puzzle {
         padding-top: 5%;
         }
         .puzzle p {
         font-size: 17px;
+        }
+        .puzzle img {
+        margin-bottom: 70px;
         }
         .footer {
         font-size: 18px; 
